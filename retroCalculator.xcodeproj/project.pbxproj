@@ -12,6 +12,8 @@
 		EFEBA5971E2FCAA80079FB76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA5951E2FCAA80079FB76 /* Main.storyboard */; };
 		EFEBA5991E2FCAA80079FB76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA5981E2FCAA80079FB76 /* Assets.xcassets */; };
 		EFEBA59C1E2FCAA80079FB76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA59A1E2FCAA80079FB76 /* LaunchScreen.storyboard */; };
+		EFEBA5A41E2FCB110079FB76 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA5A31E2FCB110079FB76 /* btn.wav */; };
+		EFEBA5A61E2FCB400079FB76 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFEBA5A51E2FCB400079FB76 /* Minecrafter.Reg.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EFEBA5981E2FCAA80079FB76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFEBA59B1E2FCAA80079FB76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFEBA59D1E2FCAA80079FB76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEBA5A31E2FCB110079FB76 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		EFEBA5A51E2FCB400079FB76 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 		EFEBA5901E2FCAA80079FB76 /* retroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				EFEBA5A31E2FCB110079FB76 /* btn.wav */,
 				EFEBA5911E2FCAA80079FB76 /* AppDelegate.swift */,
 				EFEBA5931E2FCAA80079FB76 /* ViewController.swift */,
 				EFEBA5951E2FCAA80079FB76 /* Main.storyboard */,
 				EFEBA5981E2FCAA80079FB76 /* Assets.xcassets */,
 				EFEBA59A1E2FCAA80079FB76 /* LaunchScreen.storyboard */,
+				EFEBA5A51E2FCB400079FB76 /* Minecrafter.Reg.ttf */,
 				EFEBA59D1E2FCAA80079FB76 /* Info.plist */,
 			);
 			path = retroCalculator;
@@ -127,6 +133,8 @@
 				EFEBA59C1E2FCAA80079FB76 /* LaunchScreen.storyboard in Resources */,
 				EFEBA5991E2FCAA80079FB76 /* Assets.xcassets in Resources */,
 				EFEBA5971E2FCAA80079FB76 /* Main.storyboard in Resources */,
+				EFEBA5A41E2FCB110079FB76 /* btn.wav in Resources */,
+				EFEBA5A61E2FCB400079FB76 /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
